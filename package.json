@@ -1,5 +1,5 @@
 {
-	"name": "vuecron",
+	"name": "ele-vue-cron",
 	"description": "A VueJS component for cron jobs",
 	"version": "0.1.0",
 	"main": "./packages/Cron/index.js",
@@ -54,9 +54,9 @@
 	],
 	"author": "jayhowe2014@163.com",
 	"license": " MIT License",
-	"homepage": "",
+	"homepage": "https://github.com/JayHowe/vuecron",
 	"bugs": {
-		"url": ""
+		"url": "https://github.com/JayHowe/vuecron/issues"
 	},
 	"browserslist": [
 		"> 1%",

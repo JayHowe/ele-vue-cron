@@ -41,7 +41,6 @@ export default {
 			cron: '* * * * *',
 			cron2: '* * * * *',
 			allowedPeriods: ['month', 'week', 'day'],
-			allowedDropdowns: ['period', 'month-days', 'hours'],
 		}
 	},
 }
