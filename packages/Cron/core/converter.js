@@ -179,7 +179,7 @@ export function formatValue(value, unit, humanize, leadingZero, clockFormat) {
 		clockFormat === '24-hour-clock' && (type === 'hours' || type === 'minutes')
 
 	if ((humanize && type === 'week-days') || (humanize && type === 'months')) {
-		cronPartString = alt?.[value - min]
+		cronPartString = alt && alt[value - min]
 	} else if (value < 10 && (needLeadingZero || need24HourClock)) {
 		cronPartString = cronPartString.padStart(2, '0')
 	}

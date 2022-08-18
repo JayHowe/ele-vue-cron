@@ -1,21 +1,10 @@
-# vuecron
+# ele-vue-cron
+基于element-ui的定时任务管理库
 
 ## 依赖安装
 
 ```
-npm install
-```
-
-### 开发启动
-
-```
-npm run serve
-```
-
-### 构建打包
-
-```
-npm run build
+npm i ele-vue-cron -S
 ```
 
 ### API 说明
