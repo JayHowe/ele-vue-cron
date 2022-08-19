@@ -1,7 +1,7 @@
 {
 	"name": "ele-vue-cron",
 	"description": "A VueJS component for cron jobs",
-	"version": "0.1.2",
+	"version": "0.1.4",
 	"main": "lib/ele-vue-cron.umd.min.js",
 	"private": false,
 	"scripts": {
@@ -12,6 +12,7 @@
 	},
 	"dependencies": {
 		"core-js": "^3.6.5",
+		"ele-vue-cron": "^0.1.4",
 		"element-ui": "^2.15.9",
 		"vue": "^2.6.11"
 	},

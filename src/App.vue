@@ -16,6 +16,7 @@
 				:disabled="disabled"
 				:allowedPeriods="allowedPeriods"
 				defaultPeriod="month"
+				:clearable="true"
 			/>
 			<div class="title">cron表达式: {{ cron2 }}</div>
 			<!-- <div>
@@ -28,7 +29,8 @@
 </template>
 
 <script>
-import Cron from '../packages/Cron'
+// import Cron from '../packages/Cron/index';
+import Cron from 'ele-vue-cron'
 
 export default {
 	name: 'App',
